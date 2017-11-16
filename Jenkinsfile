@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'git pull'
+        sh 'cp -rf * /opt/workspace/jenkinstest'
       }
     }
   }
