@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'cd src/github.com/liuhuiirst/jenkinsTest'
+        sh 'git pull'
       }
     }
   }
